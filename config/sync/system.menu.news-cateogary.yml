@@ -1,0 +1,8 @@
+uuid: 2a02ba90-0b90-4a78-aa56-abbea6509b87
+langcode: en
+status: true
+dependencies: {  }
+id: news-cateogary
+label: 'News Cateogary'
+description: ''
+locked: false

@@ -1,0 +1,24 @@
+uuid: fa9b6638-6749-428f-89fc-f251cc85f954
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.contact_us
+    - field.field.block_content.contact_us.field_contact_us
+  module:
+    - webform
+id: block_content.contact_us.default
+targetEntityType: block_content
+bundle: contact_us
+mode: default
+content:
+  field_contact_us:
+    type: webform_entity_reference_entity_view
+    label: above
+    settings:
+      source_entity: true
+      lazy: false
+    third_party_settings: {  }
+    weight: 1
+    region: content
+hidden: {  }

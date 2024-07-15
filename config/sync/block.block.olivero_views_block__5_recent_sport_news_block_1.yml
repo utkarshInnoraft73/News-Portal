@@ -1,0 +1,40 @@
+uuid: 3d923db7-c853-4417-8343-13db94a18b68
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.5_recent_sport_news
+  module:
+    - system
+    - user
+    - views
+  theme:
+    - olivero
+id: olivero_views_block__5_recent_sport_news_block_1
+theme: olivero
+region: content
+weight: -7
+provider: null
+plugin: 'views_block:5_recent_sport_news-block_1'
+settings:
+  id: 'views_block:5_recent_sport_news-block_1'
+  label: ''
+  label_display: visible
+  provider: views
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: '<front>'
+  user_role:
+    id: user_role
+    negate: false
+    context_mapping:
+      user: '@user.current_user_context:current_user'
+    roles:
+      anonymous: anonymous
+      authenticated: authenticated
+      content_editor: content_editor
+      administrator: administrator

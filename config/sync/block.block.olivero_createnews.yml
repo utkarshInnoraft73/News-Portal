@@ -1,0 +1,34 @@
+uuid: 4b29af63-7539-485e-8623-56450b8286b7
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.create-news
+  module:
+    - system
+    - user
+  theme:
+    - olivero
+id: olivero_createnews
+theme: olivero
+region: primary_menu
+weight: 0
+provider: null
+plugin: 'system_menu_block:create-news'
+settings:
+  id: 'system_menu_block:create-news'
+  label: 'Create News'
+  label_display: '0'
+  provider: system
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility:
+  user_role:
+    id: user_role
+    negate: false
+    context_mapping:
+      user: '@user.current_user_context:current_user'
+    roles:
+      content_editor: content_editor
+      administrator: administrator

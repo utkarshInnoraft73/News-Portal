@@ -1,0 +1,39 @@
+uuid: 5cc0c4c3-9b8c-41ec-a140-c2aed1ffc1e2
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.news-cateogary
+  module:
+    - system
+    - user
+  theme:
+    - olivero
+id: olivero_newscateogary
+theme: olivero
+region: sidebar
+weight: 0
+provider: null
+plugin: 'system_menu_block:news-cateogary'
+settings:
+  id: 'system_menu_block:news-cateogary'
+  label: 'News Cateogary'
+  label_display: visible
+  provider: system
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: '<front>'
+  user_role:
+    id: user_role
+    negate: false
+    context_mapping:
+      user: '@user.current_user_context:current_user'
+    roles:
+      anonymous: anonymous
+      content_editor: content_editor
+      administrator: administrator

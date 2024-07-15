@@ -1,0 +1,21 @@
+uuid: c8c31087-d830-4b85-a2df-dce1a292f423
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.taxonomy_term.layout_builder__layout
+    - taxonomy.vocabulary.news
+  module:
+    - layout_builder
+id: taxonomy_term.news.layout_builder__layout
+field_name: layout_builder__layout
+entity_type: taxonomy_term
+bundle: news
+label: Layout
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: layout_section

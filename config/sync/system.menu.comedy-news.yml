@@ -1,0 +1,8 @@
+uuid: ab091b7b-340f-4969-a2af-da1cb1e5870f
+langcode: en
+status: true
+dependencies: {  }
+id: comedy-news
+label: 'Comedy news'
+description: ''
+locked: false

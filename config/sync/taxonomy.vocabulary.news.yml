@@ -1,0 +1,9 @@
+uuid: cc1eb2e2-5b6c-4439-a0eb-03f2b7561639
+langcode: en
+status: true
+dependencies: {  }
+name: 'News Cateogary'
+vid: news
+description: 'This taxonomy defines the new cateogaries'
+weight: 0
+new_revision: false
