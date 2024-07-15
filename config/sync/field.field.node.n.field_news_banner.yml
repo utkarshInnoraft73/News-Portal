@@ -1,0 +1,31 @@
+uuid: c88ecbe6-6e54-4d61-8f5e-8ed1c75ec6d3
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_news_banner
+    - node.type.n
+    - paragraphs.paragraphs_type.banner
+  module:
+    - entity_reference_revisions
+id: node.n.field_news_banner
+field_name: field_news_banner
+entity_type: node
+bundle: 'n'
+label: 'News Banner'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles:
+      banner: banner
+    negate: 0
+    target_bundles_drag_drop:
+      banner:
+        weight: 2
+        enabled: true
+field_type: entity_reference_revisions

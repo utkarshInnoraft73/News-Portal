@@ -1,0 +1,25 @@
+uuid: 344c5345-8cd7-4671-9765-be82ffe9498e
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:cateogary:6eb6b661-322b-4c6f-9b49-c795fdc0e836'
+  module:
+    - block_content
+  theme:
+    - olivero
+id: olivero_newscateogaries_2
+theme: olivero
+region: header
+weight: -10
+provider: null
+plugin: 'block_content:6eb6b661-322b-4c6f-9b49-c795fdc0e836'
+settings:
+  id: 'block_content:6eb6b661-322b-4c6f-9b49-c795fdc0e836'
+  label: '4 Random news cateogaries'
+  label_display: visible
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

@@ -1,0 +1,43 @@
+uuid: fc22c5cb-ddb0-4df5-88aa-a9c2651dcba6
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.cateogary
+    - field.field.block_content.cateogary.body
+    - field.field.block_content.cateogary.field_cateogary_links
+  module:
+    - link
+    - text
+id: block_content.cateogary.default
+targetEntityType: block_content
+bundle: cateogary
+mode: default
+content:
+  body:
+    type: text_textarea_with_summary
+    weight: 26
+    region: content
+    settings:
+      rows: 9
+      summary_rows: 3
+      placeholder: ''
+      show_summary: false
+    third_party_settings: {  }
+  field_cateogary_links:
+    type: link_default
+    weight: 27
+    region: content
+    settings:
+      placeholder_url: ''
+      placeholder_title: ''
+    third_party_settings: {  }
+  info:
+    type: string_textfield
+    weight: -5
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden: {  }

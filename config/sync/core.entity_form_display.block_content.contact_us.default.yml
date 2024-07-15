@@ -1,0 +1,25 @@
+uuid: 93451672-f792-4d13-8c7a-c562920f0b16
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.contact_us
+    - field.field.block_content.contact_us.field_contact_us
+  module:
+    - webform
+id: block_content.contact_us.default
+targetEntityType: block_content
+bundle: contact_us
+mode: default
+content:
+  field_contact_us:
+    type: webform_entity_reference_select
+    weight: 0
+    region: content
+    settings:
+      default_data: true
+      webforms:
+        - footer_contact_form
+    third_party_settings: {  }
+hidden:
+  info: true

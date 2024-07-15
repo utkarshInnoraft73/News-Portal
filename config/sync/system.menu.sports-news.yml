@@ -1,0 +1,8 @@
+uuid: e3b984f6-ab1f-4c45-9162-d43349b0f19b
+langcode: en
+status: true
+dependencies: {  }
+id: sports-news
+label: 'Sports news'
+description: ''
+locked: false

@@ -1,0 +1,36 @@
+uuid: 38e4151e-6b1a-4f59-9ea8-73ca68e26325
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.cateogary
+    - field.field.block_content.cateogary.body
+    - field.field.block_content.cateogary.field_cateogary_links
+  module:
+    - link
+    - text
+id: block_content.cateogary.default
+targetEntityType: block_content
+bundle: cateogary
+mode: default
+content:
+  body:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_cateogary_links:
+    type: link
+    label: above
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    weight: 1
+    region: content
+hidden: {  }

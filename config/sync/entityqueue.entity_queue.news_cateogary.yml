@@ -1,0 +1,25 @@
+uuid: e055cbda-1aa2-4af8-aa5a-30a63413e2f8
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+id: news_cateogary
+label: 'News Cateogary'
+handler: simple
+handler_configuration: {  }
+entity_settings:
+  target_type: menu
+  handler: 'default:node'
+  handler_settings:
+    target_bundles: null
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: ''
+queue_settings:
+  min_size: 0
+  max_size: 0
+  act_as_queue: false
+  reverse: false

@@ -1,0 +1,15 @@
+_core:
+  default_config_hash: ijfbzDTN4CbE7Sr-6ubWzy_t1vH4OtU1doNCLssVz-4
+langcode: en
+uuid: 4bd6cc3b-67ad-4193-869b-ebfb0656c0f2
+name: 'Local Employee Management Portal'
+mail: utkarsh.singh@innoraft.com
+slogan: ''
+page:
+  403: /node/3
+  404: /node/2
+  front: /node/1
+admin_compact_mode: false
+weight_select_max: 100
+default_langcode: en
+mail_notification: ''

@@ -1,0 +1,14 @@
+uuid: 8cc617bb-d150-4ba5-bc8b-2b3f5051f631
+langcode: en
+status: true
+dependencies: {  }
+name: banner_800_400
+label: Banner(800/400)
+effects:
+  abe38aef-da7e-4e48-93a4-165352b11201:
+    uuid: abe38aef-da7e-4e48-93a4-165352b11201
+    id: image_resize
+    weight: 1
+    data:
+      width: 800
+      height: 400

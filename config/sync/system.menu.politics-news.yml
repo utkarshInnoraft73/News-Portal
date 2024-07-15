@@ -1,0 +1,8 @@
+uuid: 36f3e23a-20c3-439d-8621-c5ece0564f5b
+langcode: en
+status: true
+dependencies: {  }
+id: politics-news
+label: 'Politics news'
+description: ''
+locked: false
